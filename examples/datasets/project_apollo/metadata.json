@@ -1,0 +1,18 @@
+{
+  "id": "project_apollo",
+  "name": "Project Apollo: Autonomous Avionics",
+  "description": "Avionics system specifications, telemetry pipelines, and safety envelope criteria for autonomous aerial vehicles.",
+  "tags": [
+    "aerospace",
+    "avionics",
+    "telemetry",
+    "failsafe",
+    "kalman-filter"
+  ],
+  "sample_queries": [
+    "What triggers an emergency recovery mode in Project Apollo?",
+    "Explain the sensor fusion architecture and EKF estimation rate.",
+    "What are the communication timeout specifications for the lost-link failsafe?",
+    "Describe the motor ESC array and braking specifications."
+  ]
+}

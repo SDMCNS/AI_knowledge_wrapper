@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.obj
+*.o
+*.pyd
+
+# Distribution / packaging
+/build/
+/dist/
+*.egg-info/
+.eggs/
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Node / Web Frontend
+web/node_modules/
+web/.pnp
+web/.pnp.js
+web/coverage/
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+!web/dist/**
+
+# Local SQLite databases & runtime locks
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# Local runtime asset and document storage
+/knowledge_assets/*
+!/knowledge_assets/.gitkeep
+/knowledge_files/*
+!/knowledge_files/.gitkeep
+
+# Runtime workspaces (generated on demand via examples/ or user action)
+/workspaces/*
+!/workspaces/.gitkeep
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo

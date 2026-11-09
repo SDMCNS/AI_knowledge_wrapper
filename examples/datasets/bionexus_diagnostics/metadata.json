@@ -1,0 +1,18 @@
+{
+  "id": "bionexus_diagnostics",
+  "name": "BioNexus: Clinical Genomics & Diagnostics",
+  "description": "Standard operating procedures, bioinformatics secondary analysis pipelines, and ACMG clinical variant interpretation rules.",
+  "tags": [
+    "genomics",
+    "bioinformatics",
+    "acmg",
+    "next-gen-sequencing",
+    "clinical-diagnostics"
+  ],
+  "sample_queries": [
+    "What are the clinical sequencing quality gates for BioNexus assays?",
+    "Explain the ACMG criteria for classifying pathogenic variants (PVS1, PS1).",
+    "What alignment and variant calling tools are used in the secondary analysis pipeline?",
+    "How are gnomAD population allele frequency cutoffs applied in variant filtering?"
+  ]
+}
